@@ -1,0 +1,344 @@
+.adoption-text-style > p > span {
+  color: #1446a0;
+  font-weight: 500;
+}
+
+.nav-item.active a {
+  color: black !important;
+}
+
+.error-msg {
+  color: orangered !important;
+  /*font-weight: bold;*/
+}
+
+.card-box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 80px; */
+}
+
+.card {
+  width: 450px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 70px;
+  /* font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  /* font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+}
+
+.card a.fp {
+  width: 100%;
+  display: flex;
+  color: #5881d0;
+}
+
+.login_register {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(221, 221, 221, 1);
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.login_register a {
+  font-size: 1em;
+  padding: 10px 55px;
+  border: none;
+  width: 50%;
+}
+
+.login_register a.login {
+  border-radius: 15px;
+  background-color: transparent;
+  color: black;
+}
+
+.login_register a.register {
+  border-radius: 15px;
+  background: linear-gradient(90deg, #003a74, #006ad5);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  /* color: #4fe89c; */
+  color: rgb(118, 116, 116);
+  /* color: #000; */
+  font-family: "Roboto Mono", sans-serif;
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, 0.7);
+}
+
+.form select option {
+  color: #000;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  /* color: #000; */
+  font-family: "Roboto Mono", sans-serif;
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, 0.7);
+}
+
+.user .form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  font-family: "Roboto Mono", sans-serif;
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, 0.7);
+}
+
+.form select.form-control {
+  margin-bottom: 30px;
+}
+
+.login_btn {
+  font-size: 20px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background-color: #003a74;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: linear-gradient(-90deg, #003a74, #006ad5);
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, 0.9);
+  transition-duration: 1s;
+}
+
+.login_btn:hover {
+  background: #006ad5;
+  /* border: #003a74; */
+}
+
+.login_btn1 {
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  padding: 9px;
+}
+
+/* User login */
+.register-link {
+  text-align: center;
+}
+
+/* input {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, .06);
+  border-radius: 8px;
+  padding: 0 52px 0 20px;
+  color: #000;
+  background: rgba(49, 121, 90, .09); */
+.card-box .form-field input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #666;
+  /* padding: 10px 15px 10px 10px; */
+}
+
+.card-box .form-field {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  /* width: 440px; */
+  width: auto;
+  margin-top: 10px;
+}
+
+.card-box .form-field .fas {
+  color: #555;
+}
+
+/* input {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, .06);
+  border-radius: 8px;
+  padding: 0 52px 0 20px;
+  color: #000;
+  background: rgba(49, 121, 90, .09);
+} */
+.user .box {
+  margin-top: 200px;
+}
+
+.box {
+  width: 550px;
+  /* height: 650px; */
+  /* height: auto; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.box h2 {
+  margin-bottom: 70px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* .field input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  color: #a0a6a3;
+  font-family: "Roboto Mono", sans-serif;
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, 0.7);
+} */
+.row1 {
+  margin-bottom: 20px;
+  width: 480px;
+}
+
+.social-use-btn {
+  font-size: 15px;
+  color: #000;
+  height: 55px;
+  border: 1px solid #e5e5e5;
+  border-radius: 7px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .social-use-btn {
+    font-size: 14px;
+    height: 50px;
+  }
+}
+
+/* signup form */
+.card1 {
+  width: 650px;
+  height: auto;
+  background-color: #fdfdfd94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 300px;
+}
+
+.card1 .form input {
+  background: linear-gradient(-90deg, #c39ff4, #84b1f4);
+}
+
+.card1 .form select {
+  background: linear-gradient(-90deg, #c39ff4, #84b1f4);
+  /* color: rgb(118, 116, 116); */
+}
+
+.card1 h2 {
+  margin-bottom: 70px;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+span h2 {
+  color: #6d0ee1;
+  height: 0px;
+}
+
+a {
+  color: #874ad1;
+}
+
+#img {
+  background-size: 100% 100%;
+  background-image: url("img/adoption/signup.jpg");
+  background-position: left bottom;
+  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-image: url("img/signup.jpg"); */
+  /* background-image: url("img/adoption/sign.avif"); */
+  /* background-image: url("img/adoption/cutepets.jpg"); */
+  /* background-repeat: no-repeat;*/
+}
+
+.hel img {
+  background-size: 30px;
+}
+
+.user {
+  background-size: 100% 100%;
+  /* background-image: url("img/login/user.jpeg"); */
+  /* background-image: url("img/login/user1.jpg"); */
+  background-image: url("img/login/user3.jpg");
+  background-attachment: fixed;
+}
+
+/* manage pets */
+.box1 {
+  width: 750px;
+  /* height: 650px; */
+  /* height: auto; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
